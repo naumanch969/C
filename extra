@@ -1,0 +1,19 @@
+gcc -Wall save-temps mian.c  
+
+
+1) preprocessing
+    all the comments get removed from the program and the data of library files get fetched i.e., stdio.h or math.h
+    main.i contains the content at this stage
+
+2) compiling
+    code translate to assembly language
+    main.s
+
+3) assembling
+    code translate to mashine language
+    mian.o
+
+4) linking
+    connect all the .o files (mashine code files) with each other
+    a) static linking
+    b) dynamic linking
